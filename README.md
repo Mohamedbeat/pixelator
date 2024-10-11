@@ -57,8 +57,7 @@ This project is a **real-time grid-based game** where users can interact with a 
 │   └── app.js            # JavaScript logic for WebSocket connection and grid interaction
 │
 ├── /backend
-│   ├── main.go           # WebSocket server in Go
-│   └── gameGrid.go       # Grid state management
+│   └── main.go           # WebSocket server in Go
 │
 └── README.md             # Project documentation
 
