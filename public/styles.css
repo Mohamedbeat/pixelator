@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(60, 1fr);
+  grid-template-rows: repeat(20, 1fr);
+  gap: 5px;
+}
+
+.grid-cell {
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.grid-cell.black {
+  background-color: black;
+}
